@@ -18,4 +18,13 @@ The system comprises two main components:
 - **Validation**: Includes basic validation for employee attributes, such as email format.
 
 ---
+## Setup Project
 
+- Install dependencies
+```
+pip3 install -r requirements
+```
+- Run __init__.py to execute the test cases
+```
+python3 __init__.py
+```
