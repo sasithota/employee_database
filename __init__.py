@@ -18,7 +18,7 @@ def print_test(func: Callable) -> Callable:
         try:
             func(*args, **kwargs)
         except Exception as e:
-            print(f"Encoutered exception: {e}")
+            print(f"Encountered exception: {e}")
         print(f"Completed test case: {func.__name__}")
     return wrapper
 
